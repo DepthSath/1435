@@ -11,7 +11,7 @@ foreach($_POST as $variable => $value)
 	fwrite($handle,"\r\n");
 
 }
-fwrite($handle, "----x------x------x-----x----");
+fwrite($handle, "===============++++=============");
 fclose($handle);
 exit;
 ?>
